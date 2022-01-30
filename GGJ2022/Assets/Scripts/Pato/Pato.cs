@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Pato : MonoBehaviour
 {
+    [SerializeField] Animator anim;
+
+
     [SerializeField] float maximaEnergia = 100f;
     float energiaRestante;
     [SerializeField] BarraEnergia barraEnergia;
@@ -62,7 +65,7 @@ public class Pato : MonoBehaviour
         CambiarEstado(patoDebajo);
         SeZambullio();
         //------------- Loop 1
-
+        anim.SetBool("zambullido",true);
          AkSoundEngine.PostEvent("Bubles", gameObject);
     }
     public void SacarCabezaASuperficie()
@@ -73,7 +76,7 @@ public class Pato : MonoBehaviour
         AkSoundEngine.PostEvent("Breath_out", gameObject);
         //-------------
 
-          
+        anim.SetBool("zambullido", false);
         CambiarEstado(patoEnSuperficie);
         SacoCabeza();
 
@@ -116,11 +119,6 @@ public class Pato : MonoBehaviour
         energiaRestante -= energiaGastada;
         if (energiaRestante <= 0)
         {
-        // if(!energiaRestante <= 0)  {
-        // //------ Death--Stop
-        // AkSoundEngine.PostEvent("Death", gameObject);
-       
-        //   }
             EnergiaAgotada();
             Morir();
         }
@@ -131,15 +129,8 @@ public class Pato : MonoBehaviour
         oxigenoRestante -= cantidadConsumido;
         if (oxigenoRestante <= 0) 
         {
-        // if(oxigenoRestante <= 0)  {
-        // //------ Death--Stop
-        // AkSoundEngine.PostEvent("Death", gameObject);
-       
-        //   }
-
             OxigenoAgotado();
-            Morir();
-            
+            Morir();            
         }
         else barraOxigeno.ActualizarBarra(oxigenoRestante / maximoOxigeno);
     }

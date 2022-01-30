@@ -14,6 +14,10 @@ public class Pausa : MonoBehaviour
     [SerializeField] Animator anim;
     int mostradoEnPantalla = 0;
     [SerializeField] string[] dialogos;
+    private void Start()
+    {
+        
+    }
     void ActualizarMostrado()
     {
         mostradoEnPantalla++;

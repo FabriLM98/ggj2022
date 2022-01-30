@@ -7,7 +7,7 @@ public class Pez : MonoBehaviour
     bool comestible = false;
     [SerializeField] float speed = 2f;
 
-    float energiaAportada = 20f;
+    [SerializeField]float energiaAportada = 20f;
     public delegate void ComerPez(float energiaAportada);
     public static event ComerPez PezComido;
 
