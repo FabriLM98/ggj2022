@@ -4,43 +4,47 @@ using UnityEngine;
 
 public class AguaLaguna : MonoBehaviour
 {
-    SpriteRenderer sr;
-    private void Awake()
-    {
-        sr = GetComponent<SpriteRenderer>();
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    [SerializeField] SpriteRenderer sr;
+    [SerializeField] float speed;
+    bool oscurecer = true;
     void Update()
     {
-        
+        if (oscurecer)
+        {
+            HacerOpaco();
+        }
+        else HacerTrasparente();
     }
     private void OnEnable()
     {
-        Pato.SeZambullio += DesaparecerAgua;
-        Pato.SacoCabeza += AparecerAgua;
+        Pato.SeZambullio += Aclarar;
+        Pato.SacoCabeza += Oscurecer;
     }
     private void OnDisable()
     {
-        Pato.SeZambullio -= DesaparecerAgua;
-        Pato.SacoCabeza -= AparecerAgua;
+        Pato.SeZambullio -= Aclarar;
+        Pato.SacoCabeza -= Oscurecer;
     }
-
-    void DesaparecerAgua()
+    void Oscurecer()
     {
+        oscurecer = true;
+    }
+    void Aclarar()
+    {
+        oscurecer = false;
+    }
+    public void HacerTrasparente()
+    {
+        if (sr.color.a <= 0) return;
         Color nuevoColor = sr.color;
-        nuevoColor.a = 0;
+        nuevoColor.a -= Time.deltaTime * speed;
         sr.color = nuevoColor;
     }
-    void AparecerAgua()
+    public void HacerOpaco()
     {
+        if (sr.color.a >= 0.6f) return;
         Color nuevoColor = sr.color;
-        nuevoColor.a = 0.6f;
+        nuevoColor.a += Time.deltaTime * speed;
         sr.color = nuevoColor;
     }
 }

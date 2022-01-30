@@ -112,6 +112,7 @@ public class Pato : MonoBehaviour
         //DamageSound
         AkSoundEngine.PostEvent("Damage", gameObject);
         //---------------------
+        anim.SetTrigger("golpeado");
         GastarEnergia(damage);
     }
     public void GastarEnergia(float energiaGastada)
@@ -150,8 +151,8 @@ public class Pato : MonoBehaviour
     {
         GanarEnergia(energiaAportada);
 
- //ComePez Sonido
-       
+        //ComePez Sonido
+        anim.SetTrigger("comiendo");
         AkSoundEngine.PostEvent("Heal", gameObject);
     
         

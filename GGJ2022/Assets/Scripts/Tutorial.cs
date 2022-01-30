@@ -12,6 +12,15 @@ public class Tutorial : MonoBehaviour
     int mostradoEnPantalla = 0;
     [SerializeField] GameObject[] imagenes;
     [SerializeField] string[] dialogos;
+
+    private void Start()
+    {
+        if (!PlayerPrefs.HasKey("VioTutorial"))
+        {
+            AbrirTutorial();
+            PlayerPrefs.SetString("VioTutorial", "true");
+        }
+    }
     public void PasarAlProximo()
     {
         if (mostradoEnPantalla == imagenes.Length -1) 
