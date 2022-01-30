@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: e3496816020d774c979d5c1c09620f0f
     GuidInternal: 
-    m_lastTime: -8585580800134775808
+    m_lastTime: -8585580777494775808
     List:
     - name: main
       guid: 24b05d5f9996cd459873a07bbf9d14b5
@@ -359,8 +359,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: d1e739b918bd764e8e4bdf9e0db3c26d
     GuidInternal: 
-    m_lastTime: -8585580800134775808
+    m_lastTime: -8585580777494775808
     List:
+    - name: Breath_out
+      guid: 50d575221ef6254ca153413ad147c64a
+      id: 2889721010
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: Breath_out
+        ObjectType: 3
+        guid: 50d575221ef6254ca153413ad147c64a
+      Path: Events/Default Work Unit/Breath_out
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Bubles
       guid: df16c2aa6f6b4f4090d29c19bc16075b
       id: 3648829692
