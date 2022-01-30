@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BasuraManager : MonoBehaviour
 {
-    [SerializeField] GameObject basuraPrefab;
+    [SerializeField] GameObject[] basuraPrefabs;
     float timer = 0;
     [SerializeField] float timeBetweenSpawn = 0.5f;
     // Start is called before the first frame update
@@ -23,8 +23,8 @@ public class BasuraManager : MonoBehaviour
     }
     void HacerAparecerBasura()
     {
-        GameObject instancia = Instantiate(basuraPrefab);
-        instancia.transform.position = new Vector3(Random.Range(-2.3f,2.3f),this.transform.position.y,0);
+        GameObject instancia = Instantiate(basuraPrefabs[Random.Range(0,basuraPrefabs.Length)]);
+        instancia.transform.position = new Vector3(Random.Range(-2.8f,2.8f),this.transform.position.y,0);
         if (GameObject.Find("Pato").GetComponent<Pato>().DebajoDelAgua()) instancia.GetComponent<Basura>().HacerTrasparente();
     }
 }

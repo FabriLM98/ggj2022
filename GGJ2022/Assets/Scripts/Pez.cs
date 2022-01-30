@@ -22,7 +22,7 @@ public class Pez : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.down * speed * Time.deltaTime);
+        transform.Translate(Vector2.down * speed * GameManager.globalSpeed* Time.deltaTime);
     }
     public void DesaparecioDePantalla()
     {

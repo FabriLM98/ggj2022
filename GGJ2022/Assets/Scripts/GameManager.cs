@@ -10,13 +10,25 @@ public class GameManager : MonoBehaviour
     [SerializeField] Text textoDerrota;
     [SerializeField] Text textoPuntaje;
     [SerializeField] HighScore hs;
+    float baseSpeed = 1;
+    public static float globalSpeed;
+    [SerializeField] float speedDivisor = 1f;
+    float time0 = 0;
     void Start()
     {
         Time.timeScale = 1;
+        globalSpeed = 1;
+        time0 = Time.time;
     }
     void Update()
     {
-        
+        ActualizarVelocidadGlobal();
+    }
+    void ActualizarVelocidadGlobal()
+    {
+        globalSpeed = baseSpeed + (float)System.Math.Tanh((((Time.time - time0)) / 20) - 2) + 1;
+        //globalSpeed = baseSpeed + Mathf.Log10((Time.time - time0) / speedDivisor + 1);
+        Debug.Log("Speed: " + globalSpeed.ToString());
     }
     private void OnEnable()
     {

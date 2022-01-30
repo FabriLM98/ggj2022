@@ -5,7 +5,7 @@ using UnityEngine;
 public class PatoEnSuperficie : PatoEstado
 {
     float cantidadEnergiaGastadaPorSeg = 8f;
-    float oxigenoRecuperadoPorSegundo = 5f;
+    float oxigenoRecuperadoPorSegundo = 10f;
     Pato patoScript;
     float speed = 8;
     float bordeHorizontal = 2.3f;

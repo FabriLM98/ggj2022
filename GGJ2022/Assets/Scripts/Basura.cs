@@ -7,7 +7,7 @@ public class Basura : MonoBehaviour
     [SerializeField] float speed = 2f;
     [SerializeField]SpriteRenderer sr;
 
-    float damagePerHit = 10f;
+    [SerializeField]float damagePerHit = 10f;
     public float DamagePerHit
     {
         get
@@ -23,7 +23,7 @@ public class Basura : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.down * speed * Time.deltaTime);
+        transform.Translate(Vector2.down * speed * GameManager.globalSpeed* Time.deltaTime);
     }
     public void ColisionConPato()
     {
