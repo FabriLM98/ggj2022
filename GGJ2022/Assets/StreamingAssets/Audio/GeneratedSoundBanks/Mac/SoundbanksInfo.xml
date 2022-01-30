@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/PATOATTACK/</ProjectRoot>
+		<SourceFilesRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/PATOATTACK/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/PATOATTACK/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/PATOATTACK/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3012214071">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="4263369054">
+			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2889721010" Name="Breath_out" ObjectPath="\Events\Default Work Unit\Breath_out">
+					<IncludedMemoryFiles>
+						<File Id="986592771" Language="SFX">
+							<ShortName>EX_BR_Perc_Wide_Breath_In.wav</ShortName>
+							<Path>SFX/EX_BR_Perc_Wide_Breath_In_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3648829692" Name="Bubles" ObjectPath="\Events\Default Work Unit\Bubles">
+					<IncludedMemoryFiles>
+						<File Id="174981761" Language="SFX">
+							<ShortName>ABJP_Water_06_Bubbles.wav</ShortName>
+							<Path>SFX/ABJP_Water_06_Bubbles_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3030007947" Name="Bubles_stop" ObjectPath="\Events\Default Work Unit\Bubles_stop"/>
+				<Event Id="977454165" Name="Button" ObjectPath="\Events\Default Work Unit\Button">
+					<IncludedMemoryFiles>
+						<File Id="1034517835" Language="SFX">
+							<ShortName>ESM_Cool_Interface_Sound_Game_Click_Switch_UI_Classic.wav</ShortName>
+							<Path>SFX/ESM_Cool_Interface_Sound_Game_Click_Switch_UI_Classic_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1786804762" Name="Damage" ObjectPath="\Events\Default Work Unit\Damage">
+					<IncludedMemoryFiles>
+						<File Id="476606409" Language="SFX">
+							<ShortName>ESM_Retro_Game_Low_Take_Damage_5_8_Bit_Arcade_80s_Negative.wav</ShortName>
+							<Path>SFX/ESM_Retro_Game_Low_Take_Damage_5_8_Bit_Arcade_80s_Negative_10C4C929.wem</Path>
+						</File>
+						<File Id="559205006" Language="SFX">
+							<ShortName>ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long.wav</ShortName>
+							<Path>SFX/ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_13B21FE7.wem</Path>
+						</File>
+						<File Id="591098366" Language="SFX">
+							<ShortName>ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long.wav</ShortName>
+							<Path>SFX/ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_354F2129.wem</Path>
+						</File>
+						<File Id="668704326" Language="SFX">
+							<ShortName>PMAM2_Lofi_Foley_Cartoon.wav</ShortName>
+							<Path>SFX/PMAM2_Lofi_Foley_Cartoon_19E3CA16.wem</Path>
+						</File>
+						<File Id="737902324" Language="SFX">
+							<ShortName>ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long.wav</ShortName>
+							<Path>SFX/ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_31364077.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Death">
+					<IncludedMemoryFiles>
+						<File Id="445419666" Language="SFX">
+							<ShortName>gh_perc_drowned.wav</ShortName>
+							<Path>SFX/gh_perc_drowned_10C4C929.wem</Path>
+						</File>
+						<File Id="483567786" Language="SFX">
+							<ShortName>shs_oat_ambience_nature_animals_birds_ducks_lake.wav</ShortName>
+							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_4B791DDC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2262747023" Name="Dive" ObjectPath="\Events\Default Work Unit\Dive">
+					<IncludedMemoryFiles>
+						<File Id="239379481" Language="SFX">
+							<ShortName>TAIKO_vocal_drown.wav</ShortName>
+							<Path>SFX/TAIKO_vocal_drown_10C4C929.wem</Path>
+						</File>
+						<File Id="882746852" Language="SFX">
+							<ShortName>Pouring_Water_7.wav</ShortName>
+							<Path>SFX/Pouring_Water_7_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3448274447" Name="Heal" ObjectPath="\Events\Default Work Unit\Heal">
+					<IncludedMemoryFiles>
+						<File Id="139414381" Language="SFX">
+							<ShortName>ESM_Ancient_Game_Magic_Heal_Buff_Fantasy_Tonal_Accent_Hit_Stab.wav</ShortName>
+							<Path>SFX/ESM_Ancient_Game_Magic_Heal_Buff_Fantasy_Tonal_Accent_Hit_Stab_10C4C929.wem</Path>
+						</File>
+						<File Id="258507472" Language="SFX">
+							<ShortName>shs_oat_ambience_nature_animals_birds_ducks_lake.wav</ShortName>
+							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_90438AE3.wem</Path>
+						</File>
+						<File Id="304949651" Language="SFX">
+							<ShortName>shs_oat_ambience_nature_animals_birds_ducks_lake.wav</ShortName>
+							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_6B45DAD1.wem</Path>
+						</File>
+						<File Id="401224582" Language="SFX">
+							<ShortName>shs_oat_ambience_nature_animals_birds_ducks_lake.wav</ShortName>
+							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_F843A7CE.wem</Path>
+						</File>
+						<File Id="911949346" Language="SFX">
+							<ShortName>ESM_Card_Game_Upgrades_Reverse_Flutter_01_Fantasy_Magic_Cartoon_Positive_Buff_Boost.wav</ShortName>
+							<Path>SFX/ESM_Card_Game_Upgrades_Reverse_Flutter_01_Fantasy_Magic_Cartoon_Positive_Buff_Boost_2EDD0664.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2179486487" Name="HeartBeat" ObjectPath="\Events\Default Work Unit\HeartBeat">
+					<IncludedMemoryFiles>
+						<File Id="611898690" Language="SFX">
+							<ShortName>RKU_SYNTHMAT_TEXTURES_INTERNAL_HEART_BEAT.wav</ShortName>
+							<Path>SFX/RKU_SYNTHMAT_TEXTURES_INTERNAL_HEART_BEAT_9CD34ED5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music">
+					<IncludedMemoryFiles>
+						<File Id="63051457" Language="SFX">
+							<ShortName>Primero.wav</ShortName>
+							<Path>SFX/Primero_D79FB2B7.wem</Path>
+						</File>
+						<File Id="74047998" Language="SFX">
+							<ShortName>Hardcore.wav</ShortName>
+							<Path>SFX/Hardcore_D79FB2B7.wem</Path>
+						</File>
+						<File Id="337507382" Language="SFX">
+							<ShortName>intropato.wav</ShortName>
+							<Path>SFX/intropato_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{6976AD5A-DF72-43B1-A9C8-0FD664FBE04D}">
+							<Media>
+								<File Id="74047998"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{48FABB3B-DA2B-4595-B76C-29F733140140}">
+							<Media>
+								<File Id="337507382"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2E244164-F819-4CF4-AC2A-95B7E10D533F}">
+							<Media>
+								<File Id="63051457"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1055674226" Name="StateHardcore" ObjectPath="\Events\Default Work Unit\StateHardcore">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1332417183" Name="Hardcore" ObjectPath="\States\Default Work Unit\Music\Hardcore"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="570470822" Name="StateIntro" ObjectPath="\Events\Default Work Unit\StateIntro">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Music\Intro"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3648763256" Name="StatePrimero" ObjectPath="\Events\Default Work Unit\StatePrimero">
+					<ActionSetState>
+						<ActionSetStateEntry Id="4048265391" Name="Primero" ObjectPath="\States\Default Work Unit\Music\Primero"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3677180323" Name="Health" ObjectPath="\Game Parameters\Default Work Unit\Health"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Music\Intro" GUID="{48FABB3B-DA2B-4595-B76C-29F733140140}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1332417183" Name="Hardcore" ObjectPath="\States\Default Work Unit\Music\Hardcore" GUID="{6976AD5A-DF72-43B1-A9C8-0FD664FBE04D}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{AAE561E1-79A3-4D2C-B248-3E4DA788C08E}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{F2E6F194-35B6-44FB-816A-F7A50611A065}"/>
+						<State Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Music\Intro" GUID="{48FABB3B-DA2B-4595-B76C-29F733140140}"/>
+						<State Id="4048265391" Name="Primero" ObjectPath="\States\Default Work Unit\Music\Primero" GUID="{2E244164-F819-4CF4-AC2A-95B7E10D533F}"/>
+						<State Id="1332417183" Name="Hardcore" ObjectPath="\States\Default Work Unit\Music\Hardcore" GUID="{6976AD5A-DF72-43B1-A9C8-0FD664FBE04D}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4048265391" Name="Primero" ObjectPath="\States\Default Work Unit\Music\Primero" GUID="{2E244164-F819-4CF4-AC2A-95B7E10D533F}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -16,6 +16,12 @@ public class TempSceneChange : MonoBehaviour
     {
         
     }
+     public void ClickSound(){
+
+        AkSoundEngine.PostEvent("Button", gameObject);
+
+    }
+   
     public void Jugar()
     {
         SceneManager.LoadScene("SampleScene");

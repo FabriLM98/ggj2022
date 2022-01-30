@@ -42,17 +42,23 @@ public class GameManager : MonoBehaviour
     }
     void Perder()
     {
+      
+        //------
         Time.timeScale = 0;
         textoPuntaje.text = "Tu puntaje final fue: " + hs.HighScoreValue.ToString();
         panelDerrota.SetActive(true);
     }
     void PerdioAhogado()
     {
+        
+
         Perder();
         textoDerrota.text = "Te quedaste sin oxigeno! Recuerda estar tiempo en la superficie para respirar!";
     }
     void PerdioSinEnergia()
     {
+       
+
         Perder();
         textoDerrota.text = "Te quedaste sin energia! Recuerda comer peces de vez en cuando!";
     }

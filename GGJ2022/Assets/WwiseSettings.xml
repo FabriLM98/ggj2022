@@ -10,7 +10,7 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac>/Volumes/SSD2/Wwise installs/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows />
-  <WwiseProjectPath>../../../../../../Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/PATOATTACK/PATOATTACK.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../../../../../Users/dillannhoyos/Documents/WwiseProjects/PATOATTACK/PATOATTACK.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>

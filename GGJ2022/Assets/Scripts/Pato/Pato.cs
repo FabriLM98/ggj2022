@@ -54,13 +54,28 @@ public class Pato : MonoBehaviour
     }
     public void Zambullirse()
     {
+        //Zambullirse sonido
+       
+        AkSoundEngine.PostEvent("Dive", gameObject);
+    //---------- ----------------------------
         CambiarEstado(patoDebajo);
         SeZambullio();
+        //------------- Loop 1
+
+         AkSoundEngine.PostEvent("Bubles", gameObject);
     }
     public void SacarCabezaASuperficie()
     {
+        //--- Bubles_stop
+        AkSoundEngine.PostEvent("Bubles_stop", gameObject);
+
+        AkSoundEngine.PostEvent("Breath_out", gameObject);
+        //-------------
+
+          
         CambiarEstado(patoEnSuperficie);
         SacoCabeza();
+
     }
 
     void Update()
@@ -90,6 +105,9 @@ public class Pato : MonoBehaviour
     }
     public void HittedByTrash(float damage)
     {
+        //DamageSound
+        AkSoundEngine.PostEvent("Damage", gameObject);
+        //---------------------
         GastarEnergia(damage);
     }
     public void GastarEnergia(float energiaGastada)
@@ -97,6 +115,11 @@ public class Pato : MonoBehaviour
         energiaRestante -= energiaGastada;
         if (energiaRestante <= 0)
         {
+        // if(!energiaRestante <= 0)  {
+        // //------ Death--Stop
+        // AkSoundEngine.PostEvent("Death", gameObject);
+       
+        //   }
             EnergiaAgotada();
         }
         else barraEnergia.ActualizarBarra(energiaRestante / maximaEnergia);
@@ -106,7 +129,14 @@ public class Pato : MonoBehaviour
         oxigenoRestante -= cantidadConsumido;
         if (oxigenoRestante <= 0) 
         {
+        // if(oxigenoRestante <= 0)  {
+        // //------ Death--Stop
+        // AkSoundEngine.PostEvent("Death", gameObject);
+       
+        //   }
+
             OxigenoAgotado();
+            
         }
         else barraOxigeno.ActualizarBarra(oxigenoRestante / maximoOxigeno);
     }
@@ -125,6 +155,12 @@ public class Pato : MonoBehaviour
     void ComerPez(float energiaAportada)
     {
         GanarEnergia(energiaAportada);
+
+ //ComePez Sonido
+       
+        AkSoundEngine.PostEvent("Heal", gameObject);
+    
+        
     }
     public bool DebajoDelAgua()
     {

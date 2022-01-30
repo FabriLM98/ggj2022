@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 3b26d6be8b417d499d04822e565caed8
     GuidInternal: 
-    m_lastTime: -8585580935984775808
+    m_lastTime: -8585580800134775808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -319,20 +319,6 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
-    - name: Motion Factory Bus
-      guid: c6b9f92af16ee946b5f2e30c9e602c74
-      id: 985987111
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 3b26d6be8b417d499d04822e565caed8
-      - ElementName: Motion Factory Bus
-        ObjectType: 2
-        guid: c6b9f92af16ee946b5f2e30c9e602c74
-      Path: Master-Mixer Hierarchy/Default Work Unit/Motion Factory Bus
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
@@ -345,8 +331,22 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: e3496816020d774c979d5c1c09620f0f
     GuidInternal: 
-    m_lastTime: -8585580936274775808
-    List: []
+    m_lastTime: -8585580800134775808
+    List:
+    - name: main
+      guid: 24b05d5f9996cd459873a07bbf9d14b5
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e3496816020d774c979d5c1c09620f0f
+      - ElementName: main
+        ObjectType: 7
+        guid: 24b05d5f9996cd459873a07bbf9d14b5
+      Path: SoundBanks/Default Work Unit/main
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -359,8 +359,212 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: d1e739b918bd764e8e4bdf9e0db3c26d
     GuidInternal: 
-    m_lastTime: -8585580936274775808
-    List: []
+    m_lastTime: -8585580800134775808
+    List:
+    - name: Bubles
+      guid: df16c2aa6f6b4f4090d29c19bc16075b
+      id: 3648829692
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: Bubles
+        ObjectType: 3
+        guid: df16c2aa6f6b4f4090d29c19bc16075b
+      Path: Events/Default Work Unit/Bubles
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Bubles_stop
+      guid: 743fa9730f978c4c9fa42b3c974a7477
+      id: 3030007947
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: Bubles_stop
+        ObjectType: 3
+        guid: 743fa9730f978c4c9fa42b3c974a7477
+      Path: Events/Default Work Unit/Bubles_stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Button
+      guid: 9af176527a3d9e47ac708adb7f346d1b
+      id: 977454165
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: Button
+        ObjectType: 3
+        guid: 9af176527a3d9e47ac708adb7f346d1b
+      Path: Events/Default Work Unit/Button
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Damage
+      guid: 10ac212b0e42aa41869e498f6fc1679a
+      id: 1786804762
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: Damage
+        ObjectType: 3
+        guid: 10ac212b0e42aa41869e498f6fc1679a
+      Path: Events/Default Work Unit/Damage
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Death
+      guid: d21c9bd5baa6e640b2b7948f639441e2
+      id: 779278001
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: Death
+        ObjectType: 3
+        guid: d21c9bd5baa6e640b2b7948f639441e2
+      Path: Events/Default Work Unit/Death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dive
+      guid: 6dd7ba12f81ea74aa00092042341944a
+      id: 2262747023
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: Dive
+        ObjectType: 3
+        guid: 6dd7ba12f81ea74aa00092042341944a
+      Path: Events/Default Work Unit/Dive
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Heal
+      guid: 3cd4e9eb4e0e254e8fb73a6c88d1e040
+      id: 3448274447
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: Heal
+        ObjectType: 3
+        guid: 3cd4e9eb4e0e254e8fb73a6c88d1e040
+      Path: Events/Default Work Unit/Heal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: HeartBeat
+      guid: 90d0f2220e601642b739c590131bf223
+      id: 2179486487
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: HeartBeat
+        ObjectType: 3
+        guid: 90d0f2220e601642b739c590131bf223
+      Path: Events/Default Work Unit/HeartBeat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music
+      guid: 81db9d914b989240af1375131784c48b
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: Play_Music
+        ObjectType: 3
+        guid: 81db9d914b989240af1375131784c48b
+      Path: Events/Default Work Unit/Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: StateHardcore
+      guid: 796d87361fbd734cb42b13243758d8de
+      id: 1055674226
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: StateHardcore
+        ObjectType: 3
+        guid: 796d87361fbd734cb42b13243758d8de
+      Path: Events/Default Work Unit/StateHardcore
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: StateIntro
+      guid: d8aefa43613af4488764ef8748e8d7d9
+      id: 570470822
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: StateIntro
+        ObjectType: 3
+        guid: d8aefa43613af4488764ef8748e8d7d9
+      Path: Events/Default Work Unit/StateIntro
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: StatePrimero
+      guid: 952359d94e461f489d073c404713d050
+      id: 3648763256
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d1e739b918bd764e8e4bdf9e0db3c26d
+      - ElementName: StatePrimero
+        ObjectType: 3
+        guid: 952359d94e461f489d073c404713d050
+      Path: Events/Default Work Unit/StatePrimero
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -514,7 +718,7 @@ MonoBehaviour:
     m_lastTime: -8585580936274775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 1600000017000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
