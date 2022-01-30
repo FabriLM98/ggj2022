@@ -7,13 +7,15 @@ public class BasuraManager : MonoBehaviour
     [SerializeField] GameObject[] basuraPrefabs;
     float timer = 0;
     [SerializeField] float timeBetweenSpawn = 0.5f;
+    float baseTimeBetweenSpawn;
     // Start is called before the first frame update
     void Start()
     {
-
+        baseTimeBetweenSpawn = timeBetweenSpawn;
     }
     void Update()
     {
+        timeBetweenSpawn = baseTimeBetweenSpawn / GameManager.globalSpeed;
         timer += Time.deltaTime;
         if(timer > timeBetweenSpawn)
         {
