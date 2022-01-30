@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     }
     void ActualizarVelocidadGlobal()
     {
-        globalSpeed = baseSpeed + (float)System.Math.Tanh((((Time.time - time0)) / 20) - 2) + 1;
+        globalSpeed = baseSpeed + (float)System.Math.Tanh((((Time.time - time0)) / 50) - 2) + 1;
         //globalSpeed = baseSpeed + Mathf.Log10((Time.time - time0) / speedDivisor + 1);
         Debug.Log("Speed: " + globalSpeed.ToString());
     }
