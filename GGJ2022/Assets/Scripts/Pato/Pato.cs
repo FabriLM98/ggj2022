@@ -33,6 +33,7 @@ public class Pato : MonoBehaviour
 
     PatoDebajo patoDebajo = new PatoDebajo();
     PatoEnSuperficie patoEnSuperficie = new PatoEnSuperficie();
+    PatoMuerto patoMuerto = new PatoMuerto();
     // Start is called before the first frame update
     private void Awake()
     {
@@ -121,6 +122,7 @@ public class Pato : MonoBehaviour
        
         //   }
             EnergiaAgotada();
+            Morir();
         }
         else barraEnergia.ActualizarBarra(energiaRestante / maximaEnergia);
     }
@@ -136,6 +138,7 @@ public class Pato : MonoBehaviour
         //   }
 
             OxigenoAgotado();
+            Morir();
             
         }
         else barraOxigeno.ActualizarBarra(oxigenoRestante / maximoOxigeno);
@@ -165,5 +168,11 @@ public class Pato : MonoBehaviour
     public bool DebajoDelAgua()
     {
         return estado.EstaDebajoDelAgua();
+    }
+    void Morir()
+    {
+        CambiarEstado(patoMuerto);
+        //------ Death--Stop
+        AkSoundEngine.PostEvent("Death", gameObject);
     }
 }
