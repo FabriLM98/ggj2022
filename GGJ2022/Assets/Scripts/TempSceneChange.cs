@@ -22,6 +22,19 @@ public class TempSceneChange : MonoBehaviour
         AkSoundEngine.PostEvent("Button", gameObject);
 
     }
+    
+    public void StopMusic(){
+        
+         AkSoundEngine.PostEvent("StopMusic", gameObject);
+
+    }
+
+
+    public void PlayMusic(){
+        
+         AkSoundEngine.PostEvent("PlayMusic", gameObject);
+
+    }
    
     public void Jugar()
     {

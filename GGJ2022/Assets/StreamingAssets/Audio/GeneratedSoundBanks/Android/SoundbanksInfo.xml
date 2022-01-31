@@ -16,12 +16,12 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4263369054">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2261941283">
 			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2889721010" Name="Breath_out" ObjectPath="\Events\Default Work Unit\Breath_out">
+				<Event Id="2889721010" Name="Breath_out" ObjectPath="\Events\Default Work Unit\Breath_out" DurationType="OneShot" DurationMin="1.025543" DurationMax="1.025543">
 					<IncludedMemoryFiles>
 						<File Id="986592771" Language="SFX">
 							<ShortName>EX_BR_Perc_Wide_Breath_In.wav</ShortName>
@@ -29,7 +29,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3648829692" Name="Bubles" ObjectPath="\Events\Default Work Unit\Bubles">
+				<Event Id="3648829692" Name="Bubles" ObjectPath="\Events\Default Work Unit\Bubles" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="174981761" Language="SFX">
 							<ShortName>ABJP_Water_06_Bubbles.wav</ShortName>
@@ -37,8 +37,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3030007947" Name="Bubles_stop" ObjectPath="\Events\Default Work Unit\Bubles_stop"/>
-				<Event Id="977454165" Name="Button" ObjectPath="\Events\Default Work Unit\Button">
+				<Event Id="3030007947" Name="Bubles_stop" ObjectPath="\Events\Default Work Unit\Bubles_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="977454165" Name="Button" ObjectPath="\Events\Default Work Unit\Button" DurationType="OneShot" DurationMin="0.199478" DurationMax="0.199478">
 					<IncludedMemoryFiles>
 						<File Id="1034517835" Language="SFX">
 							<ShortName>ESM_Cool_Interface_Sound_Game_Click_Switch_UI_Classic.wav</ShortName>
@@ -46,7 +46,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1786804762" Name="Damage" ObjectPath="\Events\Default Work Unit\Damage">
+				<Event Id="1786804762" Name="Damage" ObjectPath="\Events\Default Work Unit\Damage" DurationType="OneShot" DurationMin="0.820696" DurationMax="1.001601">
 					<IncludedMemoryFiles>
 						<File Id="476606409" Language="SFX">
 							<ShortName>ESM_Retro_Game_Low_Take_Damage_5_8_Bit_Arcade_80s_Negative.wav</ShortName>
@@ -54,23 +54,23 @@
 						</File>
 						<File Id="559205006" Language="SFX">
 							<ShortName>ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long.wav</ShortName>
-							<Path>SFX/ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_13B21FE7.wem</Path>
+							<Path>SFX/ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_38CAF75B.wem</Path>
 						</File>
 						<File Id="591098366" Language="SFX">
 							<ShortName>ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long.wav</ShortName>
-							<Path>SFX/ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_354F2129.wem</Path>
+							<Path>SFX/ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_A6FE2B19.wem</Path>
 						</File>
 						<File Id="668704326" Language="SFX">
 							<ShortName>PMAM2_Lofi_Foley_Cartoon.wav</ShortName>
-							<Path>SFX/PMAM2_Lofi_Foley_Cartoon_19E3CA16.wem</Path>
+							<Path>SFX/PMAM2_Lofi_Foley_Cartoon_2709009C.wem</Path>
 						</File>
 						<File Id="737902324" Language="SFX">
 							<ShortName>ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long.wav</ShortName>
-							<Path>SFX/ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_31364077.wem</Path>
+							<Path>SFX/ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_1B7057DC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Death">
+				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Death" DurationType="OneShot" DurationMin="1.67645" DurationMax="1.67645">
 					<IncludedMemoryFiles>
 						<File Id="445419666" Language="SFX">
 							<ShortName>gh_perc_drowned.wav</ShortName>
@@ -78,11 +78,11 @@
 						</File>
 						<File Id="483567786" Language="SFX">
 							<ShortName>shs_oat_ambience_nature_animals_birds_ducks_lake.wav</ShortName>
-							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_4B791DDC.wem</Path>
+							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_F4B651D0.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2262747023" Name="Dive" ObjectPath="\Events\Default Work Unit\Dive">
+				<Event Id="2262747023" Name="Dive" ObjectPath="\Events\Default Work Unit\Dive" DurationType="OneShot" DurationMin="0.712415" DurationMax="0.712415">
 					<IncludedMemoryFiles>
 						<File Id="239379481" Language="SFX">
 							<ShortName>TAIKO_vocal_drown.wav</ShortName>
@@ -94,7 +94,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3448274447" Name="Heal" ObjectPath="\Events\Default Work Unit\Heal">
+				<Event Id="3448274447" Name="Heal" ObjectPath="\Events\Default Work Unit\Heal" DurationType="OneShot" DurationMin="2.59511" DurationMax="2.87447">
 					<IncludedMemoryFiles>
 						<File Id="139414381" Language="SFX">
 							<ShortName>ESM_Ancient_Game_Magic_Heal_Buff_Fantasy_Tonal_Accent_Hit_Stab.wav</ShortName>
@@ -102,23 +102,23 @@
 						</File>
 						<File Id="258507472" Language="SFX">
 							<ShortName>shs_oat_ambience_nature_animals_birds_ducks_lake.wav</ShortName>
-							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_90438AE3.wem</Path>
+							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_06098859.wem</Path>
 						</File>
 						<File Id="304949651" Language="SFX">
 							<ShortName>shs_oat_ambience_nature_animals_birds_ducks_lake.wav</ShortName>
-							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_6B45DAD1.wem</Path>
+							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_28F1C19A.wem</Path>
 						</File>
 						<File Id="401224582" Language="SFX">
 							<ShortName>shs_oat_ambience_nature_animals_birds_ducks_lake.wav</ShortName>
-							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_F843A7CE.wem</Path>
+							<Path>SFX/shs_oat_ambience_nature_animals_birds_ducks_lake_6698D4DA.wem</Path>
 						</File>
 						<File Id="911949346" Language="SFX">
 							<ShortName>ESM_Card_Game_Upgrades_Reverse_Flutter_01_Fantasy_Magic_Cartoon_Positive_Buff_Boost.wav</ShortName>
-							<Path>SFX/ESM_Card_Game_Upgrades_Reverse_Flutter_01_Fantasy_Magic_Cartoon_Positive_Buff_Boost_2EDD0664.wem</Path>
+							<Path>SFX/ESM_Card_Game_Upgrades_Reverse_Flutter_01_Fantasy_Magic_Cartoon_Positive_Buff_Boost_530B2CCF.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2179486487" Name="HeartBeat" ObjectPath="\Events\Default Work Unit\HeartBeat">
+				<Event Id="2179486487" Name="HeartBeat" ObjectPath="\Events\Default Work Unit\HeartBeat" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="611898690" Language="SFX">
 							<ShortName>RKU_SYNTHMAT_TEXTURES_INTERNAL_HEART_BEAT.wav</ShortName>
@@ -126,7 +126,27 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music">
+				<Event Id="2998622199" Name="Pataleo" ObjectPath="\Events\Default Work Unit\Pataleo" DurationType="OneShot" DurationMin="0.597004" DurationMax="1.285278">
+					<IncludedMemoryFiles>
+						<File Id="81741642" Language="SFX">
+							<ShortName>SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes.wav</ShortName>
+							<Path>SFX/SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes_13CAC7A0.wem</Path>
+						</File>
+						<File Id="284777511" Language="SFX">
+							<ShortName>SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes.wav</ShortName>
+							<Path>SFX/SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes_BCDB8A71.wem</Path>
+						</File>
+						<File Id="614966681" Language="SFX">
+							<ShortName>SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes.wav</ShortName>
+							<Path>SFX/SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes_D110EE9E.wem</Path>
+						</File>
+						<File Id="806229799" Language="SFX">
+							<ShortName>SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes.wav</ShortName>
+							<Path>SFX/SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes_AD97647F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="63051457" Language="SFX">
 							<ShortName>Primero.wav</ShortName>
@@ -159,21 +179,22 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1055674226" Name="StateHardcore" ObjectPath="\Events\Default Work Unit\StateHardcore">
+				<Event Id="1055674226" Name="StateHardcore" ObjectPath="\Events\Default Work Unit\StateHardcore" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetState>
 						<ActionSetStateEntry Id="1332417183" Name="Hardcore" ObjectPath="\States\Default Work Unit\Music\Hardcore"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="570470822" Name="StateIntro" ObjectPath="\Events\Default Work Unit\StateIntro">
+				<Event Id="570470822" Name="StateIntro" ObjectPath="\Events\Default Work Unit\StateIntro" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetState>
 						<ActionSetStateEntry Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Music\Intro"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="3648763256" Name="StatePrimero" ObjectPath="\Events\Default Work Unit\StatePrimero">
+				<Event Id="3648763256" Name="StatePrimero" ObjectPath="\Events\Default Work Unit\StatePrimero" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetState>
 						<ActionSetStateEntry Id="4048265391" Name="Primero" ObjectPath="\States\Default Work Unit\Music\Primero"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\StopMusic" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="3677180323" Name="Health" ObjectPath="\Game Parameters\Default Work Unit\Health"/>

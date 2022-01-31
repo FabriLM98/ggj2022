@@ -81,6 +81,10 @@ public class Pato : MonoBehaviour
         SacoCabeza();
 
     }
+    //--- pataleo de la animacion
+    public void Pataleo(){
+         AkSoundEngine.PostEvent("Pataleo", gameObject);
+    }
 
     void Update()
     {
@@ -161,6 +165,7 @@ public class Pato : MonoBehaviour
     {
         return estado.EstaDebajoDelAgua();
     }
+    
     void Morir()
     {
         CambiarEstado(patoMuerto);

@@ -4,10 +4,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	977454165	Button			\Default Work Unit\Button	
 	1055674226	StateHardcore			\Default Work Unit\StateHardcore	
 	1786804762	Damage			\Default Work Unit\Damage	
+	1917263390	StopMusic			\Default Work Unit\StopMusic	
 	2179486487	HeartBeat			\Default Work Unit\HeartBeat	
 	2262747023	Dive			\Default Work Unit\Dive	
 	2889721010	Breath_out			\Default Work Unit\Breath_out	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	2998622199	Pataleo			\Default Work Unit\Pataleo	
 	3030007947	Bubles_stop			\Default Work Unit\Bubles_stop	
 	3448274447	Heal			\Default Work Unit\Heal	
 	3648763256	StatePrimero			\Default Work Unit\StatePrimero	
@@ -34,23 +36,27 @@ Effect plug-ins	ID	Name	Type				Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	63051457	New Music Track	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\Primero_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\primero\Primero\New Music Track		2751112
 	74047998	New Music Track	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\Hardcore_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Hardcore\Hardcore\New Music Track		2751112
+	81741642	Pataleo_01	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes_13CAC7A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pataleo\Pataleo\Pataleo_01		100632
 	139414381	Heal	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ESM_Ancient_Game_Magic_Heal_Buff_Fantasy_Tonal_Accent_Hit_Stab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\HealComp\Heal		576064
 	174981761	ABJP_Water_06_Bubbles	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ABJP_Water_06_Bubbles_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ABJP_Water_06_Bubbles		2186584
 	239379481	TAIKO_vocal_drown	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\TAIKO_vocal_drown_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diving\TAIKO_vocal_drown		32092
-	258507472	Duck_02	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\shs_oat_ambience_nature_animals_birds_ducks_lake_90438AE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\HealComp\quack\Duck_02		264264
-	304949651	Duck	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\shs_oat_ambience_nature_animals_birds_ducks_lake_6B45DAD1.wem		\Actor-Mixer Hierarchy\Default Work Unit\HealComp\quack\Duck		173968
+	258507472	Duck_02	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\shs_oat_ambience_nature_animals_birds_ducks_lake_06098859.wem		\Actor-Mixer Hierarchy\Default Work Unit\HealComp\quack\Duck_02		264264
+	284777511	Pataleo_03	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes_BCDB8A71.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pataleo\Pataleo\Pataleo_03		61702
+	304949651	Duck	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\shs_oat_ambience_nature_animals_birds_ducks_lake_28F1C19A.wem		\Actor-Mixer Hierarchy\Default Work Unit\HealComp\quack\Duck		173968
 	337507382	intropato	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\intropato_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Intro\Intro\intropato		6533796
-	401224582	Duck_01	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\shs_oat_ambience_nature_animals_birds_ducks_lake_F843A7CE.wem		\Actor-Mixer Hierarchy\Default Work Unit\HealComp\quack\Duck_01		187344
+	401224582	Duck_01	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\shs_oat_ambience_nature_animals_birds_ducks_lake_6698D4DA.wem		\Actor-Mixer Hierarchy\Default Work Unit\HealComp\quack\Duck_01		187344
 	445419666	gh_perc_drowned	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\gh_perc_drowned_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ending Scene\gh_perc_drowned		85284
 	476606409	Damage	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ESM_Retro_Game_Low_Take_Damage_5_8_Bit_Arcade_80s_Negative_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damagecomp\Damage		57664
-	483567786	Duck	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\shs_oat_ambience_nature_animals_birds_ducks_lake_4B791DDC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ending Scene\Duck		237508
-	559205006	ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_13B21FE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damagecomp\quack\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long		116328
-	591098366	ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_01	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_354F2129.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damagecomp\quack\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_01		137000
+	483567786	Duck	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\shs_oat_ambience_nature_animals_birds_ducks_lake_F4B651D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ending Scene\Duck		237508
+	559205006	ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_38CAF75B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damagecomp\quack\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long		116328
+	591098366	ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_01	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_A6FE2B19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damagecomp\quack\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_01		137000
 	611898690	Heart Beat	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\RKU_SYNTHMAT_TEXTURES_INTERNAL_HEART_BEAT_9CD34ED5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heart Beat		596056
-	668704326	PMAM2_Lofi_Foley_Cartoon	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\PMAM2_Lofi_Foley_Cartoon_19E3CA16.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damagecomp\PMAM2_Lofi_Foley_Cartoon		127196
-	737902324	ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_02	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_31364077.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damagecomp\quack\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_02		173172
+	614966681	Pataleo	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes_D110EE9E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pataleo\Pataleo\Pataleo		94144
+	668704326	PMAM2_Lofi_Foley_Cartoon	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\PMAM2_Lofi_Foley_Cartoon_2709009C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damagecomp\PMAM2_Lofi_Foley_Cartoon		127196
+	737902324	ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_02	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_1B7057DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damagecomp\quack\ESM_FG_animal_one_shot_duck_quack_group_chatter_squeak_squawk_1_long_02		173172
+	806229799	Pataleo_02	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\SPLC-4892_FX_Oneshot_Foley_Footsteps_Water_Shallow_Sloshes_AD97647F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pataleo\Pataleo\Pataleo_02		68192
 	882746852	Pouring_Water_7	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\Pouring_Water_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Diving\Pouring_Water_7		84116
-	911949346	ESM_Card_Game_Upgrades_Reverse_Flutter_01_Fantasy_Magic_Cartoon_Positive_Buff_Boost	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ESM_Card_Game_Upgrades_Reverse_Flutter_01_Fantasy_Magic_Cartoon_Positive_Buff_Boost_2EDD0664.wem		\Actor-Mixer Hierarchy\Default Work Unit\HealComp\ESM_Card_Game_Upgrades_Reverse_Flutter_01_Fantasy_Magic_Cartoon_Positive_Buff_Boost		49068
+	911949346	ESM_Card_Game_Upgrades_Reverse_Flutter_01_Fantasy_Magic_Cartoon_Positive_Buff_Boost	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ESM_Card_Game_Upgrades_Reverse_Flutter_01_Fantasy_Magic_Cartoon_Positive_Buff_Boost_530B2CCF.wem		\Actor-Mixer Hierarchy\Default Work Unit\HealComp\ESM_Card_Game_Upgrades_Reverse_Flutter_01_Fantasy_Magic_Cartoon_Positive_Buff_Boost		49068
 	986592771	EX_BR_Perc_Wide_Breath_In	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\EX_BR_Perc_Wide_Breath_In_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EX_BR_Perc_Wide_Breath_In		184132
 	1034517835	Button Click	Y:\Documents\WwiseProjects\PATOATTACK\.cache\Windows\SFX\ESM_Cool_Interface_Sound_Game_Click_Switch_UI_Classic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button Click		35332
 

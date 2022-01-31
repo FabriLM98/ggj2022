@@ -376,8 +376,8 @@ MonoBehaviour:
         guid: 50d575221ef6254ca153413ad147c64a
       Path: Events/Default Work Unit/Breath_out
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.025543
+      minDuration: 1.025543
     - name: Bubles
       guid: df16c2aa6f6b4f4090d29c19bc16075b
       id: 3648829692
@@ -410,8 +410,8 @@ MonoBehaviour:
         guid: 743fa9730f978c4c9fa42b3c974a7477
       Path: Events/Default Work Unit/Bubles_stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Button
       guid: 9af176527a3d9e47ac708adb7f346d1b
       id: 977454165
@@ -427,8 +427,8 @@ MonoBehaviour:
         guid: 9af176527a3d9e47ac708adb7f346d1b
       Path: Events/Default Work Unit/Button
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.199478
+      minDuration: 0.199478
     - name: Damage
       guid: 10ac212b0e42aa41869e498f6fc1679a
       id: 1786804762
@@ -444,8 +444,8 @@ MonoBehaviour:
         guid: 10ac212b0e42aa41869e498f6fc1679a
       Path: Events/Default Work Unit/Damage
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.001601
+      minDuration: 0.820696
     - name: Death
       guid: d21c9bd5baa6e640b2b7948f639441e2
       id: 779278001
@@ -461,8 +461,8 @@ MonoBehaviour:
         guid: d21c9bd5baa6e640b2b7948f639441e2
       Path: Events/Default Work Unit/Death
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.67645
+      minDuration: 1.67645
     - name: Dive
       guid: 6dd7ba12f81ea74aa00092042341944a
       id: 2262747023
@@ -478,8 +478,8 @@ MonoBehaviour:
         guid: 6dd7ba12f81ea74aa00092042341944a
       Path: Events/Default Work Unit/Dive
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.712415
+      minDuration: 0.712415
     - name: Heal
       guid: 3cd4e9eb4e0e254e8fb73a6c88d1e040
       id: 3448274447
@@ -495,8 +495,8 @@ MonoBehaviour:
         guid: 3cd4e9eb4e0e254e8fb73a6c88d1e040
       Path: Events/Default Work Unit/Heal
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.87447
+      minDuration: 2.59511
     - name: HeartBeat
       guid: 90d0f2220e601642b739c590131bf223
       id: 2179486487
@@ -546,8 +546,8 @@ MonoBehaviour:
         guid: 796d87361fbd734cb42b13243758d8de
       Path: Events/Default Work Unit/StateHardcore
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: StateIntro
       guid: d8aefa43613af4488764ef8748e8d7d9
       id: 570470822
@@ -563,8 +563,8 @@ MonoBehaviour:
         guid: d8aefa43613af4488764ef8748e8d7d9
       Path: Events/Default Work Unit/StateIntro
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: StatePrimero
       guid: 952359d94e461f489d073c404713d050
       id: 3648763256
@@ -580,8 +580,8 @@ MonoBehaviour:
         guid: 952359d94e461f489d073c404713d050
       Path: Events/Default Work Unit/StatePrimero
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
